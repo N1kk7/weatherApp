@@ -22,13 +22,13 @@ const App = () => {
       <div  className={mainClasses.join(' ')}>
             <div  className='flex justify-between pl-5 pt-3 h-20'>
                 <div className="left-item">
-                  <img src="./main-logo.png" alt="" className="w-12 inline-block" />
+                  <img src="main-logo.png" alt="" className="w-12 inline-block" />
                   <span className="text-white pl-5">Weather Ukraine</span>
                 </div>
                 <div>
                   <ul className='right-item pl-5'>
-                        {!style && <img id="night" src="./half-moon.png" alt="" className="w-12 inline-block pr-5 " onClick={() => setDarkMode(true)}/>}
-                        {style && <img id="sun" src="./sun.png" alt="" className="w-12 pr-5 inline-block" onClick={() => setDarkMode(false)}/>}
+                        {!style && <img id="night" src="half-moon.png" alt="" className="w-12 inline-block pr-5 " onClick={() => setDarkMode(true)}/>}
+                        {style && <img id="sun" src="sun.png" alt="" className="w-12 pr-5 inline-block" onClick={() => setDarkMode(false)}/>}
                         <li className='inline-block p-3 text-lime-50 pr-10'>
                           <Link to={'/'}> Home </Link></li>
                         {/* <li className='inline-block p-3 text-lime-50'>
