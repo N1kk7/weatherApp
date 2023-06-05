@@ -45,10 +45,10 @@ const WeatherCart = ({ weather }: weatherProps) => {
                                     </div>
                                     <div id="temp">
                                         <h4 className="temp-description text-4xl">{temp.substr(0, 4)}&deg;C</h4>
-                                        <p className="text-xs text-gray-700 pl-4">Feels like {feelsLike.substr(0,2)}&deg;C</p>
-                                        <p className="text-xs text-gray-700 pl-4">Humidity {humidity}%</p>
-                                        <p className="text-xs text-gray-700 pl-4">Wind: {wind}m.s </p>
-                                        <p className="text-xs text-gray-700 pl-8">Deg: {windDirection}</p>
+                                        <p className="temp-option text-xs text-gray-700 pl-4">Feels like {feelsLike.substr(0,2)}&deg;C</p>
+                                        <p className="temp-option text-xs text-gray-700 pl-4">Humidity {humidity}%</p>
+                                        <p className="temp-option text-xs text-gray-700 pl-4">Wind: {wind}m.s </p>
+                                        <p className="temp-option text-xs text-gray-700 pl-8">Deg: {windDirection}</p>
                                     </div>
                                 </div>
                             </div>
