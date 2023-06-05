@@ -6,7 +6,7 @@ interface weatherProps {
 }
 
 const WeatherCart = ({ weather }: weatherProps) => {
-    console.log(weather);
+    // console.log(weather);
     
 
     const date = weather.dt_txt.substring(0, 10);
@@ -40,7 +40,7 @@ const WeatherCart = ({ weather }: weatherProps) => {
                                 <div className="flex flex-row space-x-4 items-center ">
                                     <div id="icon" className='bg-black rounded-2xl border-2 border-lime-50 opacity-80'>
                                         <span>
-                                            <img src={`./weatherIcon/${skyImg}`} alt="" className='w-20 p-1.5' />
+                                            <img src={`build/weatherIcon/${skyImg}`} alt="" className='w-20 p-1.5' />
                                         </span>
                                     </div>
                                     <div id="temp">

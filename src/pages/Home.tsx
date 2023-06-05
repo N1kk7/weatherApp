@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Cart from '../components/Cart'
 
 const Home = (props: any) => {
 
-  const [cartState, setCartState] = useState([]) 
+  const [cartState, setCartState] = useState([]) ;
+
+
+
+
+// useEffect = () => {
+
+// }
   return (
     <>
         <div className="search-block relative text-lg bg-transparent text-gray-800 max-w-sm my-0 mx-auto " >
