@@ -25,11 +25,30 @@
 
 
 @media screen and (max-width: 425px) {
+    .header{
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        background: rgba(0,0,0, 0.85);
+    }
+    .weather-cards{
+        top: 20cqh;
+    }
+    .name-city{
+        top: 15cqh;
+    }
    .cartImg{
     height: 120px;
    }
    .cityName{
     font-size: 3cqw;
+   }
+   .city-cards{
+    position: relative;
+    top: 20cqh;
+   }
+   .search-block{
+    top: 21cqh;
    }
    .tittleBlock{
     height: 2cqh;
@@ -47,6 +66,9 @@
    }
   }
   @media screen and (max-width: 375px) {
+    .header{
+        padding-top: unset;
+    }
     .left-item {
         img{
             display: block;

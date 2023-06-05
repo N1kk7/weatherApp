@@ -25,7 +25,7 @@ export default function Header() {
     <Router>
 
       <div  className={mainClasses.join(' ')}>
-            <div  className='flex justify-between pl-5 pt-3 h-20'>
+            <div  className='header flex justify-between pl-5 pt-3 h-20'>
                 <div className="left-item">
                   <img src="main-logo.png" alt="" className="w-12 inline-block" />
                   <span className="text-white pl-5">Weather Ukraine</span>

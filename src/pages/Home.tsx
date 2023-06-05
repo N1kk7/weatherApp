@@ -27,7 +27,7 @@ const Home = (props: any) => {
 	          </button>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-4 w-11/12 mx-auto mt-5 pb-8">
+        <div className="city-cards grid grid-cols-3 gap-4 w-11/12 mx-auto mt-5 pb-8">
             <Cart style={props.style} cartState={cartState}/>
         </div>
     </>
