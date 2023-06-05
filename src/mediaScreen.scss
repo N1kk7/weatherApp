@@ -1,0 +1,79 @@
+@media screen and (max-width: 1054px) {
+    .weather-cards{
+        min-width: 50cqw;
+        top: 25cqh;
+    }
+    #icon{
+        width: 4cqw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .weather-cards{
+        top: 10cqh;
+    }
+    .group-card{
+        flex-flow: wrap;
+        max-width: 90cqw;
+        margin: 0 auto;
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+   .cartImg{
+    height: 120px;
+   }
+   .cityName{
+    font-size: 3cqw;
+   }
+   .tittleBlock{
+    height: 2cqh;
+   }
+   #icon{
+    width: 10cqw;
+   }
+   #temp{
+    margin-left: unset;
+    width: 24cqw;
+   }
+   .temp-description{
+    font-size: 6cqw;
+    text-align: end;
+   }
+  }
+  @media screen and (max-width: 375px) {
+    .left-item {
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        span{
+            padding-left: unset;
+        }
+    }
+    .right-item{
+        padding-top: 2cqh;
+        img{
+            display: inline-block;
+        }
+    }
+    .search-block{
+        padding-top: 2cqh;
+    }
+   
+   }
+   @media screen and (max-width: 320px) {
+    .cartImg{
+        height: 90px;
+       }
+       .group-card{
+        max-width: 95cqw;
+       }
+  
+   
+   }
