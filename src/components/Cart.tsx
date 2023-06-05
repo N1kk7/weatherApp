@@ -29,7 +29,7 @@ import {
                     </div>
                 </div> */}
                 {/* <img src="/public/Ukraine/donetsk--1038078-5.jpeg" alt="" /> */}
-                { !props.style && <img className='cartImg' src={`Ukraine/${e.dImg}`} alt="" />}
+                { !props.style && <img className='cartImg' src={`Ukraine/${e.city}/${e.dImg}`} alt="" />}
                 { props.style && <img className='cartImg' src={e.nImg} alt="" />}
             </div> 
             </Link>
