@@ -12,24 +12,24 @@ export const coordinates = [
         city: "Dnipro",
         lat: 48.45,
         lon: 34.9833,
-        dImg: "Ukraine/Dnipro/d-Dnipro.jpeg",
-        nImg: "Ukraine/Dnipro/n-Dnipro.jpeg"
+        dImg: "Ukraine/Dnipro/d-dnipro.jpeg",
+        nImg: "Ukraine/Dnipro/n-dnipro.jpeg"
     },
     {
         id: 3,
         city: "Chernihiv",
         lat: 51.5055,
         lon: 31.2849,
-        dImg: "Ukraine/Chernihiv/d-Chernihiv.jpeg",
-        nImg: "Ukraine/Chernihiv/n-Chernihiv.jpeg"
+        dImg: "Ukraine/Chernihiv/d-chernihiv.jpeg",
+        nImg: "Ukraine/Chernihiv/n-chernihiv.jpeg"
     },
     {
         id: 4,
         city: "Kharkiv",
         lat: 50,
         lon: 36.25,
-        dImg: "Ukraine/Kharkiv/d-Kharkiv.jpeg",
-        nImg: "Ukraine/Kharkiv/n-Kharkiv.jpeg"
+        dImg: "Ukraine/Kharkiv/d-kharkiv.jpeg",
+        nImg: "Ukraine/Kharkiv/n-kharkiv.jpeg"
     },
     {
         id: 5,
@@ -84,8 +84,8 @@ export const coordinates = [
         city: "Donetsk",
         lat: 48,
         lon: 37.8,
-        dImg: "Ukraine/Donetsk/d-Donetsk.jpeg",
-        nImg: "Ukraine/Donetsk/n-Donetsk.jpeg"
+        dImg: "Ukraine/Donetsk/d-donetsk.jpeg",
+        nImg: "Ukraine/Donetsk/n-donetsk.jpeg"
     },
     {
         id: 12,
@@ -212,7 +212,7 @@ export const coordinates = [
         city: "Chernivtsi",
         lat: 48.2915,
         lon: 25.9403,
-        dImg: "Ukraine/Chernivtsi/d-Chernivtsi.jpeg",
-        nImg: "Ukraine/Chernivtsi/n-Chernivtsi.jpeg"
+        dImg: "Ukraine/Chernivtsi/d-chernivtsi.jpeg",
+        nImg: "Ukraine/Chernivtsi/n-chernivtsi.jpeg"
     }
 ]
