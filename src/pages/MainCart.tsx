@@ -47,7 +47,7 @@ return (
       <span className='relative  top-52 font-bold text-xl text-white bg-black p-10 rounded-3xl'>Loading...</span>
     </div>}
   </div>
-      <div className="weather-cards container mx-auto relative top-96">
+      <div className="weather-cards container mx-auto relative top-56">
           <div className="group-card flex items-center justify-center h-full">
             { weather.map((e: IWeather) => <WeatherCart weather={e} key={e.dt}/>)}
           </div>

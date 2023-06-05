@@ -53,7 +53,7 @@ export default function Header() {
               <Route path="weatherApp/build/" element={<Home style={style}/>}/>
               {/* <Route path="/findPlace" element={<FindPlace/>}/>
               <Route path="/contact" element={<Contact />}/> */}
-              <Route path="/mainCart" element={<MainCart style={style}/>}/>
+              <Route path="weatherApp/build/mainCart" element={<MainCart style={style}/>}/>
             </Routes> 
       </div>
 
